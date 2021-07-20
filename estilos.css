@@ -56,3 +56,29 @@ header {
     width: 90%;
     margin: auto;
 }
+
+/*ARRANCA SECCIÓN NOSOTROS*/
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-boton {
+    width: 42%;
+}
+
+.contenedor-parrafo-boton p {
+    font-size: 18px;
+}
+
+.contenedor-parrafo-boton a {
+    margin-top: 20px;
+    display: inline-block;
+}
