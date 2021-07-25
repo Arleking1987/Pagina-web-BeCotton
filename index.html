@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Librerías CSS de owl-->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -71,6 +76,125 @@
             </div>
         </div>
     </section>
+
+    <section>
+
+
+        <h3>Servicios</h3>
+
+        <div class="contenedor-servicios">
+
+            <div class="servicio violeta">
+                <h4>Fusce ante</h4>
+                <p>Integer bibendum ante eget tincidunt dapibus. Quisque facilisis eleifend justo id tincidunt.
+                    Vestibulum et sapien commodo, convallis erat sed, mattis lacus. Integer mollis nisi id
+                    ullamcorper
+                    lacinia. Duis dui turpis, feugiat quis lorem id, vulputate accumsan leo. Nam rhoncus sodales
+                    urna,
+                    at consectetur nunc malesuada vel. Suspendisse malesuada lorem ut gravida semper.</p>
+                <img src="img/monitor.png" alt="">
+            </div>
+
+            <div class="servicio celeste">
+                <h4>semper aliquam</h4>
+                <p>Integer bibendum ante eget tincidunt dapibus. Quisque facilisis eleifend justo id tincidunt.
+                    Vestibulum et sapien commodo, convallis erat sed, mattis lacus. Integer mollis nisi id
+                    ullamcorper
+                    lacinia. Duis dui turpis, feugiat quis lorem id, vulputate accumsan leo. Nam rhoncus sodales
+                    urna,
+                    at consectetur nunc malesuada vel. Suspendisse malesuada lorem ut gravida semper.</p>
+                <img src="img/mobile.png" alt="">
+            </div>
+
+            <div class="servicio violeta">
+                <h4>SEO</h4>
+                <p>Integer bibendum ante eget tincidunt dapibus. Quisque facilisis eleifend justo id tincidunt.
+                    Vestibulum et sapien commodo, convallis erat sed, mattis lacus. Integer mollis nisi id
+                    ullamcorper
+                    lacinia. Duis dui turpis, feugiat quis lorem id, vulputate accumsan leo. Nam rhoncus sodales
+                    urna,
+                    at consectetur nunc malesuada vel. Suspendisse malesuada lorem ut gravida semper.</p>
+                <img src="img/SEO.png" alt="">
+            </div>
+
+            <div class="servicio celeste">
+                <h4>Phasellus</h4>
+                <p>Integer bibendum ante eget tincidunt dapibus. Quisque facilisis eleifend justo id tincidunt.
+                    Vestibulum et sapien commodo, convallis erat sed, mattis lacus. Integer mollis nisi id
+                    ullamcorper
+                    lacinia. Duis dui turpis, feugiat quis lorem id, vulputate accumsan leo. Nam rhoncus sodales
+                    urna,
+                    at consectetur nunc malesuada vel. Suspendisse malesuada lorem ut gravida semper.</p>
+                <img src="img/wordpress.png" alt="">
+            </div>
+
+            <div class="servicio violeta">
+                <h4>Vestibulum</h4>
+                <p>Integer bibendum ante eget tincidunt dapibus. Quisque facilisis eleifend justo id tincidunt.
+                    Vestibulum et sapien commodo, convallis erat sed, mattis lacus. Integer mollis nisi id
+                    ullamcorper
+                    lacinia. Duis dui turpis, feugiat quis lorem id, vulputate accumsan leo. Nam rhoncus sodales
+                    urna,
+                    at consectetur nunc malesuada vel. Suspendisse malesuada lorem ut gravida semper.</p>
+                <img src="img/mante.png" alt="">
+            </div>
+
+            <div class="servicio celeste">
+                <h4>Pellentesque habitant</h4>
+                <p>Integer bibendum ante eget tincidunt dapibus. Quisque facilisis eleifend justo id tincidunt.
+                    Vestibulum et sapien commodo, convallis erat sed, mattis lacus. Integer mollis nisi id
+                    ullamcorper
+                    lacinia. Duis dui turpis, feugiat quis lorem id, vulputate accumsan leo. Nam rhoncus sodales
+                    urna,
+                    at consectetur nunc malesuada vel. Suspendisse malesuada lorem ut gravida semper.</p>
+                <img src="img/marketing.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="contenedor">
+
+            <h3>Nuestros Trabajos</h3>
+
+            <div class="owl-carousel">
+
+                <div> <img src="img/foto1.jpg"> </div>
+                <div> <img src="img/foto2.jpg"> </div>
+                <div> <img src="img/foto3.jpg"> </div>
+                <div> <img src="img/foto4.jpg"> </div>
+                <div> <img src="img/foto5.jpg"> </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Librerìas JS para owl-->
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
 
 </body>
 

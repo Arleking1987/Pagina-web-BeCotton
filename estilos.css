@@ -82,3 +82,48 @@ h3 {
     margin-top: 20px;
     display: inline-block;
 }
+
+.contenedor-servicios {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.violeta {
+    background: #5055df;
+}
+
+.celeste {
+    background: #40a8fa;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 18px;
+    height: 200px;
+}
+
+span {
+    font-size: 80px;
+    color: blue
+}
+
+.owl-nav {
+    text-align: center;
+}
