@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
+    <!--Librerías de font awesone como CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+
+    <!--Etiqueta para el responsive design-->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
 </head>
 
 <body>
@@ -25,6 +31,7 @@
 
             <div class="menu">
                 <p>BeCotton</p>
+                <img class="menu-icon" src="img/menu.png">
                 <nav>
                     <ul class="lista">
                         <li>Nosotros</li>
@@ -215,6 +222,60 @@
 
     </section>
 
+    <section id="blog">
+
+        <div class="contenedor">
+
+            <h3>Blog</h3>
+
+            <div class="contenedor-publicaciones">
+
+                <div class="publicacion">
+
+                    <img src="img/blog1.jpg" alt="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <p class="primer-parrafo">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+                    <a href="">Leer más <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+
+                <div class="publicacion publicacion-segunda">
+
+                    <img src="img/blog2.jpg" alt="">
+                    <h4>Sed ut perspiciatis unde omnis iste natus</h4>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+
+                    </p>
+                    <a href="">Leer más <i class="fas fa-arrow-right"></i></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="que-esperas">
+        <div class="contenedor">
+            <h3>
+                ¿Qué esperas para tener tus sábanas BeCotton?
+            </h3>
+            <a href="">CHARLEMOS</a>
+        </div>
+    </section>
+
+    <section id="whatsapp">
+        <a href="https://wa.me/3015298981">
+            <img src="img/whatsapp.png" alt="">
+        </a>
+    </section>
+
     <!--Librerìas JS para owl-->
     <script src="owlcarousel/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
@@ -235,6 +296,19 @@
                 }
             }
         })
+
+
+
+      /*Aquí escribiremos el JQuery para llamar el menú cuando le hacemos click
+      al ícono en el móvil*/
+        $('.menu-icon').click(function(){
+
+            $('header nav').slideToggle();
+
+        })
+
+
+
     </script>
 
 </body>
