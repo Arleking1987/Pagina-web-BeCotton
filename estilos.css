@@ -181,6 +181,7 @@ width: 28%;
     font-size: 16px;
     padding: 10px 20px 20px 20px;
     margin: 0;
+    margin-bottom: auto;
 }
 
 #blog a {
@@ -196,29 +197,94 @@ width: 28%;
     padding: 0px 20px 20px 20px !important;
 }
 
-#que-esperas {
-    background: linear-gradient(rgba(84,93,220,.94), rgba(96,171,245,.9));
+
+footer nav.menu_inferior {
+    color: #999999;
     text-align: center;
-    padding: 50px 0 50px 0;
+    padding: 20px 0;
+    margin: 30px 0 0 0; 
+    background-color: rgba(84,93,220) ;
+    
 }
 
-#que-esperas h3 {
-    font-size: 23px;
-    color: #fff;
-    margin-bottom: 40px;
+.contenedor-footer-superior {
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+    max-width: 1355px;
+    min-width: 320;
+    display: block;
+    text-align: center;
 }
 
-#que-esperas a {
-    padding: 15px 45px 15px 45px;
-    transition: 1s;
-}
 
-#que-esperas a:hover {
-    color: black;
-    transition: 1s;
-    transform: scale(1.1);
+footer nav.menu_inferior ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 3% 15px 2%;
+    font-size: 16px;
+    width: 19.5%;
+    border-right: 1px solid #999999;
     display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
 }
+
+footer nav.menu_inferior ul:last-child {
+    border: none;
+    
+}
+footer nav.menu_inferior ul li {
+    margin-bottom: 10px;
+    
+}
+
+footer nav.menu_inferior ul li.titulo {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer nav.menu_inferior ul li.titulo a {
+    color: #ffffff;
+}
+
+footer nav.menu_inferior ul li a {
+    color: #999999;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: left;
+    font-size: 12px;
+    background: none;
+    padding: inherit;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.contenedor-footer-superior {
+    display:flex
+}
+
+
+
+
+
+
 
 #whatsapp a {
     background: none;
